@@ -4,6 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="show"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Zadajte text..."
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
     <RadioGroup
         android:layout_margin="10dp"
         android:layout_width="match_parent"
@@ -22,8 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Muz" />
-
-        <RadioButton
+n        <RadioButton
             android:id="@+id/zena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,5 +82,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="cipsy" />
+
     </RadioGroup>
 </LinearLayout>

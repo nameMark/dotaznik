@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
@@ -53,4 +54,12 @@ public class MainActivity extends AppCompatActivity implements  RadioGroup.OnChe
     public void zprava (String text){
         Toast.makeText(this, text, Toast.LENGTH_LONG).show();
     }
+
+    public void show (View v){
+        EditText et = (EditText) findViewById(R.id.editText);
+        String text =  et.getText().toString();
+        Toast.makeText(this, text, Toast.LENGTH_LONG).show();
+    }
+
+
 }
