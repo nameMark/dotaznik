@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/otazka1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ake je tvoje pohlavie?" />
+
+        <RadioButton
+            android:id="@+id/muz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muz" />
+
+        <RadioButton
+            android:id="@+id/zena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zena" />
+
+        <RadioButton
+            android:id="@+id/nechcemZadat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nechcem zadat" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/otazka2">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Co mas najradsej" />
+
+        <RadioButton
+            android:id="@+id/zmrzlinu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zmrzlinu" />
+
+        <RadioButton
+            android:id="@+id/cokoladu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cokoladu" />
+
+        <RadioButton
+            android:id="@+id/cipsy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cipsy" />
+    </RadioGroup>
+</LinearLayout>
